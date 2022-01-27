@@ -233,7 +233,7 @@ $(document).ready(function(){
        data.forEach(doc => {
          const post = doc.data();
          const div = `
-           <div class="card bg-dark text-white  mt-3 mx-auto" style="border-radius: 1rem; width: 800px;">
+           <div class="card bg-secondary text-white  mt-3 mx-auto" style="border-radius: 1rem; width: 800px;">
              <div class="card-body">
                <p>${post.mensaje}</p>
                <p>Publicado el ${post.fecha} a las ${post.hora}</p>
