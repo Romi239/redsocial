@@ -126,13 +126,10 @@
         </div>
       </div>-->
 
-      <div class="new-post">
-        <textarea rows="4" cols="50" placeholder="¿Qué quieres compartir?" id="postArea"></textarea>
-        <div class="containerProgress">
-          <div class="progress"></div>
+      
+        <textarea rows="4" cols="100" placeholder="¿Qué quieres compartir?" id="postArea"></textarea>
         </div>
         <div class="hide divImg">
-          <span class="deleteImg">❌</span>
           <img class="picPost"/>
         </div>
         <div class="container-functions">
@@ -146,24 +143,12 @@
               </select>
             </div>
           </div>
-          <button id="btnSharePost"> Compartir</button>
+          <button id="btnSharePost" class="btn btn-outline-light btn-lg px-5" > Compartir</button>
         </div>
       </div>
       
-      <div id="postList">
-                   <div class="card bg-secondary text-white  mt-3 mx-auto" style="border-radius: 1rem; width: 800px;">
-             <div class="card-body">
-               <p>${post.mensaje}</p>
-               <p>Publicado el ${post.fecha} a las ${post.hora}</p>
-               <button data-id="${doc.id}" class="btn btn-success btn-edit-post bi bi-pencil-fill">
-                 Editar
-               </button>
-               <button data-id="${doc.id}" class="btn btn-danger btn-delete-post bi bi-trash-fill">
-                 Eliminar
-               </button>
-             </div>
-           </div>
-      </div>
+      <div id="postList">       
+
     </div>
     <!-- CDN Bootstrap js -->
     <script
