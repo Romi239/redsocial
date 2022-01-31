@@ -12,18 +12,19 @@
       crossorigin="anonymous"
     />
     <!-- CDN Css Personalizado -->
-    <link rel="stylesheet" href="Mini.css" />
-    <title>lovelycat</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>😽</text></svg>">
+    <link rel="stylesheet" href="borrador.css" />
+    <link rel="icon" href="https://cdn140.picsart.com/264116304007212.png?r1024x1024">
+    <title>LOVELYCAT</title>
   </head>
   <body class="gradient-custom">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand">LovelyCat
-          <img src="https://img.freepik.com/free-vector/_167235-166.jpg?size=626&ext=jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <a class="navbar-brand">lovelycat
+          <img src="https://cdn140.picsart.com/264116304007212.png?r1024x1024" alt="" width="40" height="45" class="d-inline-block align-text-top">
         </a>
         <div class="d-flex">
-          <button id="logout" class="btn btn-outline-secondary">Salir</button>
+          <img src="https://cdn140.picsart.com/264116304007212.png?r1024x1024" alt="" width="40" height="45" class="d-inline-block align-text-top">
+          <button id="logout" class="btn btn-outline-success">Exit</button>
         </div>
       </div>
     </nav>
@@ -34,6 +35,7 @@
             <div class="card bg-secondary text-white" style="border-radius: 1rem;">
               <div class="card-body p-5 text-center">
                 <div class="mb-md-5 mt-md-4">
+                  <img src="https://cdn140.picsart.com/264116304007212.png?r1024x1024" alt="" width="70" height="69" class="d-inline-block align-text-top">
                   <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                   <p class="text-white-50 mb-5">
                     Por favor, ingrese su email y contraseña.
@@ -106,9 +108,9 @@
         </div>
       </div>
 
-      <div class="card bg-dark text-white mx-auto" id="contenidoWeb" style="border-radius: 1rem; width: 800px;">
+      <div class="card bg-secondary text-white mx-auto" id="contenidoWeb" style="border-radius: 1rem; width: 800px;">
         <div class="card-body">
-          <!--<form id="postForm"action="">
+          <form id="postForm"action="">
             
             <h5>Escribe tu mensaje</h5>
             <label class="form-label" for="postText">Mensaje</label>
@@ -117,38 +119,11 @@
             </div>
             <button id="btnSendPost" class="btn btn-outline-light btn-lg px-5" type="submit">Postear</button>
           </form>
-          <div class="container-functions">
-              <div class="camera-privacity">
-                <input type="file" id="photoPost" class="hide" accept="image/*">
-              <label for="photoPost"><img src="./img/camera.png" class="camera"></label>
-            </div>
-          </div>
-        </div>
-      </div>-->
-
-      
-        <textarea rows="4" cols="100" placeholder="¿Qué quieres compartir?" id="postArea"></textarea>
-        </div>
-        <div class="hide divImg">
-          <img class="picPost"/>
-        </div>
-        <div class="container-functions">
-          <div class="camera-privacity">
-          <input type="file" id="photoPost" class="hide" accept="image/*">
-          <label for="photoPost"><img src="./img/camera.png" class="camera"></label>        
-            <div class="privacidad">
-              <select id="privacyPostArea">
-                <option value="1">🌎 Público</option>
-                <option value="2">🔒 Solo yo </option>
-              </select>
-            </div>
-          </div>
-          <button id="btnSharePost" class="btn btn-outline-light btn-lg px-5" > Compartir</button>
         </div>
       </div>
-      
-      <div id="postList">       
-
+      <div id="postList">
+        
+      </div>
     </div>
     <!-- CDN Bootstrap js -->
     <script
@@ -166,6 +141,6 @@
     <!-- CDN Firestore Firebase -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
     <!-- js personalizado -->
-    <script src="Mini.js"></script>
+    <script src="borrador.js"></script>
   </body>
 </html>

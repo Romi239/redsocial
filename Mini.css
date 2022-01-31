@@ -1,11 +1,12 @@
 .gradient-custom {
     /* fallback for old browsers */
-    background: #db1414;
+    background: #db141400;
   
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgb(230, 67, 67), rgb(71, 175, 22));
+    background: -webkit-linear-gradient(to right, rgba(230, 67, 67, 0), rgba(70, 175, 22, 0));
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgb(12, 68, 221), rgb(252, 222, 125))
+    /*background: linear-gradient(to right, rgb(4, 26, 51), rgb(68, 58, 12))*/
+    background-image: url(https://thumbs.dreamstime.com/z/modelo-incons%C3%BAtil-lindo-con-los-gatos-dibujados-mano-fondo-para-ni%C3%B1os-animales-divertidos-de-la-historieta-116005707.jpg);
   }
 
